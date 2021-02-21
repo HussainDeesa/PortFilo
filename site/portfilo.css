@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0,0.3);
+}
+
+#header-nav {
+    background-color: rgba(132, 0, 255, 0.9);
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.navbar-brand h1 {
+    color: rgb(255, 238, 6);
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+.nav-toggle {
+    color: #fff;
+}
+.nav-toggle1,.nav-toggle2,.nav-toggle3 {
+    padding-right: 15px;
+}
+.nav-toggle a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-toggle a:hover {
+    color: black;
+}
+.name {
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(253, 249, 185,0.9); 
+    
+}
+.pic1 {
+    margin-top: 15px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+.pic2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+}
+#about-me,.about-me {
+    margin-top: 20px;
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(253, 249, 185,0.9); 
+    width: fit-content;
+}
+.text {
+    font-size: 1.2em;
+    margin-top: 15px;
+    width: 94%;
+    background-color: rgb(245, 245, 220,0.7);
+    margin-left: 50px;
+}
+.top {
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    
+}
+.top:hover {
+    background-color: #fff;
+    border-radius: 800px;
+}
+.panel-footer {
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgba(132, 0, 255, 0.5);
+    border-top: 0;
+}
+.visible-xs {
+    color: rgba(132, 0, 255, 0.1); ;
+}
+#contact-us {
+    color: rgb(0, 255, 234);
+}
+#developer-details {
+    color: rgb(0, 255, 234);
+}
+#contact-details {
+    color: rgb(0, 255, 234);
+}
+.developer-details {
+    float: right;
+    clear: both;
+    color: black;
+}
+.copyright {
+    color: black;
+    text-align: center;
+}
+
+@media (max-width:767px) and (min-width:674px) {
+    .pic1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .pic2 {
+        position: relative;
+        width: 80%;
+    }
+    .text {
+        width: 90%;
+    }
+    .logo {
+        position: relative;
+    }
+    .developer-details {
+        text-align: center;
+    }
+}
+@media (max-width:675px) {
+    .pic1 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .pic2 {
+        position: relative;
+        width: 60%;
+    }
+    .text {
+        width: 85%;
+    }
+}
+@media (max-width:575px) {
+    #contact-us {
+        text-align: center;
+    }
+    #developer-details {
+        text-align: center;
+    }
+    #contact-details {
+        text-align: center;
+    }
+    .visible-xs {
+        color: black;
+        width: 80%;
+        margin-left: 50px;
+    }
+    body {
+        font-size: 0.8em;
+    }
+}
+  /* About Us Page  */
+.contact {
+    font-weight: bold;
+}
+.contact-details-phone {
+    color: black;
+    text-decoration: none;
+}
+.contact-details-phone:hover {
+   color: blue;
+}
