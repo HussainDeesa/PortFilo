@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1{
+    color:brown;
+    text-align: center;
+    font-weight: 900;
+}
+.Box{
+    width: 30%;
+    height:200px;
+    background-color:rgb(230, 205, 228) ;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+h5{
+    margin-top: 0px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 234);
+    width:65px;
+    padding: 2px;
+}
+.Text{
+    color: rgb(55, 0, 255);
+    padding: 5px;
+}
+
+@media (min-width:792px) and (max-width:1199px)
+{
+    .Box{
+        width: 46%;
+        height:200px;
+        background-color:rgb(230, 205, 228) ;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+    }
+    #third{
+        width:94.5%;
+    }
+}
+@media (max-width:792px) 
+{
+    .Box{
+        width: 100%;
+        height:200px;
+        background-color:rgb(230, 205, 228) ;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+    }
+ 

@@ -1,0 +1,14 @@
+{
+    "firstname":"Hussain",
+    "lastname":"Deesa",
+    "likesChinese":false,
+    "numberOf":2
+};
+
+// var jsonString
+// '{
+//     "firstname":"Hussain",
+//     "lastname":"Deesa",
+//     "likesChinese":false,
+//     "numberOf":2
+// }'

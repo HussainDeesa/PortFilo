@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="restaurant.css">
+    <script src="restaurant.js"></script>  
+    <script src="ajax.js"></script>
+</head>
+<body>
+   
+    <header>
+        <nav id="header-nav" class="navbar navbar-default"> 
+<div class="container">
+    <div class="navbar-header">
+        <a href="restaurant.html" class="pull-left visible-md visible-lg">
+            <div id=logo-img alt="Logo image"></div> 
+        </a>
+        <div class="navbar-brand">
+            <a href="restaurant.html">
+                <h1>
+                    CAR SHOWROOM
+                </h1>
+            </a>
+            <p>
+            <img src="Screenshot (149).png" >
+            <span> Certificate</span>
+            </p>
+        </div>
+       <button class="navbar-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+           <span class="sr-only"> Toggle Navigation </span>
+           <span class="icon-bar">  </span>
+           <span class="icon-bar">  </span>
+           <span class="icon-bar">  </span>
+       </button> 
+    </div> 
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+                <li class="visible-xs active"> 
+                    <a href="restaurant.html"> 
+                        <span class="glyphicon glyphicon-home"></span> Home </a>
+                </li> 
+                <li> 
+                    <a href="menu-categories.html"> 
+                        <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu </a>
+                </li> 
+                <li> 
+                    <a href="#"> 
+                        <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About </a>
+                </li> 
+                <li> 
+                    <a href="#"> 
+                        <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards </a>
+                </li> 
+                <li id="phone" class="hidden-xs"> 
+                    <a href="tel:+919444518565"> 
+                       <span class="glyphicon glyphicon-earphone"> 9444518565</span></a><div>* We Deliver</div>
+                </li> 
+            </ul>
+        </div>
+</div>
+    
+    </nav>
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+919444518565">
+       <span class="glyphicon glyphicon-earphone"></span>9444518565</a>
+    </div>
+ <div id="xs-deliver" class="text-center visible-xs"> *We Deliver</div>
+
+ <div id="main-content" class="container">
+    <div class="jumbotron">
+        <img src="bmcURH3.jpg" alt="pic Of car" class="img-responsive visible-xs">
+    </div>
+    <div id="home-tiles" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="menu-categories.html" onclick="$dc.loadMenuCategories();"> <div id="menu-tile"><span>Menu</span></div></a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="#" onclick="$dc.loadMenuItems('SP');"> <div id="special-tile"><span>Specials</span></div></a>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12"> 
+            <a href="https://goo.gl/maps/X4rW4j9VsQoVsr326" target="blank">
+                <div id="map-tile">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15543.45747656212!2d80.28464007824088!3d13.10777755298816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f69898f6961%3A0x234257d2e157d6a0!2sBC%20Press%202nd%20Ln%2C%20Pudumanaikuppam%2C%20Royapuram%2C%20Chennai%2C%20Tamil%20Nadu%20600013!5e0!3m2!1sen!2sin!4v1611921293986!5m2!1sen!2sin" width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <span>Map</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div><!--End of main content-->
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span> <br>
+                    Mon-Fri: 10:00am - 7:30pm <br>
+                    Sat: 10:00am-4:00pm <br>
+                    Sunday Holiday
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span> <br>
+                    23 BC Press Street <br>
+                    Royapurram Chennai-13
+                    <p>* Delivery Free within entire Chennai</p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonals" class="col-sm-4">
+                    <p>
+                        Best car showroom in city is here!!
+                    </p>
+                    <p>
+                        Amazing offers are waiting for you please visit showroom to grab those!!
+                    </p>
+                </section>
+            </div>
+            <div class="text-center"> &copy: Copyright Hussain 2021</div>
+        </div><!--End Of Footer-->
+    </footer>
+  <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>  
+  <script src="bootstrap-3.3.6-dist/js/jquery-2.x-git.min.js"></script>  
+  <script src="bootstrap-3.3.6-dist/js/jquery-2.x-git.js"></script>  
+
+</body>
+</html>    
